@@ -313,6 +313,7 @@ extension BedrockRuntime {
 
     public enum ToolUseType: String, CustomStringConvertible, Codable, Sendable, CodingKeyRepresentable {
         case serverToolUse = "server_tool_use"
+        case toolUse = "tool_use"
         public var description: String { return self.rawValue }
     }
 
